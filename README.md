@@ -1,12 +1,30 @@
-# Geoprocessamento com ArcPy
+# Geoprocessamento com ArcPy — Tutoriais Práticos
 
-Este repositório contém funções úteis e tutoriais para análise espacial usando a biblioteca ArcPy. Os exemplos foram organizados com foco na aplicação prática, especialmente em contextos de gestão ambiental.
+Este repositório reúne funções úteis e tutoriais práticos desenvolvidos durante um estágio com foco em análise espacial e monitoramento ambiental usando ArcPy, ArcGIS Online e PostgreSQL/PostGIS.
 
-## Estrutura
+## 📚 Conteúdo
 
-- `scripts/`: funções organizadas por tema.
-- `tutoriais/`: passo a passo explicando como utilizar os scripts.
+- Scripts modulares com funções reutilizáveis em ArcPy
+- Conexão com bancos de dados PostgreSQL/PostGIS
+- Publicação de dados no ArcGIS Online
+- Manipulação de geometrias, interseções e áreas
+- Classificação temática (ex: prevenção vs combate ao fogo)
 
-## Exemplo disponível
+## 📂 Estrutura
 
-- Intersect e Erase de áreas de fogo com Unidades de Conservação.
+- `scripts/`: Funções separadas por tema
+- `exemplos/`: Fluxos completos como notebooks
+- `dados/`: Exemplos de dados (mockados)
+- `utils/`: Conexões e configurações auxiliares
+
+## 🚀 Requisitos
+
+- ArcGIS Pro com licença ArcPy
+- Python 3.7+
+- pacotes: `geopandas`, `psycopg2`, `arcgis`
+
+## 🧪 Executando
+
+```bash
+python scripts/intersect_e_erase.py
+
